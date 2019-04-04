@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [WebForm1.aspx](./CS/ASPPivotGridExport/WebForm1.aspx) (VB: [WebForm1.aspx.vb](./VB/ASPPivotGridExport/WebForm1.aspx.vb))
+* [WebForm1.aspx](./CS/ASPPivotGridExport/WebForm1.aspx) (VB: [WebForm1.aspx](./VB/ASPPivotGridExport/WebForm1.aspx))
 * [WebForm1.aspx.cs](./CS/ASPPivotGridExport/WebForm1.aspx.cs) (VB: [WebForm1.aspx.vb](./VB/ASPPivotGridExport/WebForm1.aspx.vb))
 <!-- default file list end -->
 # How to export the pivot grid's data to a file
