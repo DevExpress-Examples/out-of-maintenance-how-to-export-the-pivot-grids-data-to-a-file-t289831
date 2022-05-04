@@ -8,10 +8,10 @@
 //------------------------------------------------------------------------------
 
 namespace ASPPivotGridExport {
-    
-    
+
+
     public partial class WebForm1 {
-        
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -20,7 +20,7 @@ namespace ASPPivotGridExport {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// DataAwareExportButton control.
         /// </summary>
@@ -29,7 +29,7 @@ namespace ASPPivotGridExport {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxButton DataAwareExportButton;
-        
+
         /// <summary>
         /// WysiwygExportButton control.
         /// </summary>
@@ -38,7 +38,7 @@ namespace ASPPivotGridExport {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxButton WysiwygExportButton;
-        
+
         /// <summary>
         /// ASPxPivotGrid1 control.
         /// </summary>
@@ -47,61 +47,61 @@ namespace ASPPivotGridExport {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid ASPxPivotGrid1;
-        
+
         /// <summary>
-        /// fieldCountry control.
+        /// fieldCountry1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldCountry;
-        
+        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldCountry1;
+
         /// <summary>
-        /// fieldCategoryName control.
+        /// fieldCategoryName1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldCategoryName;
-        
+        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldCategoryName1;
+
         /// <summary>
-        /// fieldProductName control.
+        /// fieldProductName1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldProductName;
-        
+        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldProductName1;
+
         /// <summary>
-        /// fieldExtendedPrice control.
+        /// fieldExtendedPrice1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldExtendedPrice;
-        
+        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldExtendedPrice1;
+
         /// <summary>
-        /// fieldSalesPerson control.
+        /// fieldSalesPerson1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldSalesPerson;
-        
+        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldSalesPerson1;
+
         /// <summary>
-        /// fieldQuantity control.
+        /// fieldQuantity1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldQuantity;
-        
+        protected global::DevExpress.Web.ASPxPivotGrid.PivotGridField fieldQuantity1;
+
         /// <summary>
         /// ASPxPivotGridExporter1 control.
         /// </summary>
@@ -110,7 +110,7 @@ namespace ASPPivotGridExport {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxPivotGrid.ASPxPivotGridExporter ASPxPivotGridExporter1;
-        
+
         /// <summary>
         /// SqlDataSource1 control.
         /// </summary>

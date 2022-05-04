@@ -7,117 +7,119 @@
 ' </auto-generated>
 '------------------------------------------------------------------------------
 
-Namespace ASPPivotGridExport
+Option Strict On
+Option Explicit On
 
+Namespace ASPPivotGridExport
 
     Partial Public Class WebForm1
 
-        ''' <summary>
-        ''' form1 control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected form1 As Global.System.Web.UI.HtmlControls.HtmlForm
+        '''<summary>
+        '''form1 control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
-        ''' <summary>
-        ''' DataAwareExportButton control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected DataAwareExportButton As Global.DevExpress.Web.ASPxButton
+        '''<summary>
+        '''DataAwareExportButton control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents DataAwareExportButton As Global.DevExpress.Web.ASPxButton
 
-        ''' <summary>
-        ''' WysiwygExportButton control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected WysiwygExportButton As Global.DevExpress.Web.ASPxButton
+        '''<summary>
+        '''WysiwygExportButton control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents WysiwygExportButton As Global.DevExpress.Web.ASPxButton
 
-        ''' <summary>
-        ''' ASPxPivotGrid1 control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected ASPxPivotGrid1 As Global.DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid
+        '''<summary>
+        '''ASPxPivotGrid1 control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents ASPxPivotGrid1 As Global.DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid
 
-        ''' <summary>
-        ''' fieldCountry control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected fieldCountry As Global.DevExpress.Web.ASPxPivotGrid.PivotGridField
+        '''<summary>
+        '''fieldCountry1 control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents fieldCountry1 As Global.DevExpress.Web.ASPxPivotGrid.PivotGridField
 
-        ''' <summary>
-        ''' fieldCategoryName control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected fieldCategoryName As Global.DevExpress.Web.ASPxPivotGrid.PivotGridField
+        '''<summary>
+        '''fieldCategoryName1 control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents fieldCategoryName1 As Global.DevExpress.Web.ASPxPivotGrid.PivotGridField
 
-        ''' <summary>
-        ''' fieldProductName control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected fieldProductName As Global.DevExpress.Web.ASPxPivotGrid.PivotGridField
+        '''<summary>
+        '''fieldProductName1 control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents fieldProductName1 As Global.DevExpress.Web.ASPxPivotGrid.PivotGridField
 
-        ''' <summary>
-        ''' fieldExtendedPrice control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected fieldExtendedPrice As Global.DevExpress.Web.ASPxPivotGrid.PivotGridField
+        '''<summary>
+        '''fieldExtendedPrice1 control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents fieldExtendedPrice1 As Global.DevExpress.Web.ASPxPivotGrid.PivotGridField
 
-        ''' <summary>
-        ''' fieldSalesPerson control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected fieldSalesPerson As Global.DevExpress.Web.ASPxPivotGrid.PivotGridField
+        '''<summary>
+        '''fieldSalesPerson1 control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents fieldSalesPerson1 As Global.DevExpress.Web.ASPxPivotGrid.PivotGridField
 
-        ''' <summary>
-        ''' fieldQuantity control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected fieldQuantity As Global.DevExpress.Web.ASPxPivotGrid.PivotGridField
+        '''<summary>
+        '''fieldQuantity1 control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents fieldQuantity1 As Global.DevExpress.Web.ASPxPivotGrid.PivotGridField
 
-        ''' <summary>
-        ''' ASPxPivotGridExporter1 control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected ASPxPivotGridExporter1 As Global.DevExpress.Web.ASPxPivotGrid.ASPxPivotGridExporter
+        '''<summary>
+        '''ASPxPivotGridExporter1 control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents ASPxPivotGridExporter1 As Global.DevExpress.Web.ASPxPivotGrid.ASPxPivotGridExporter
 
-        ''' <summary>
-        ''' SqlDataSource1 control.
-        ''' </summary>
-        ''' <remarks>
-        ''' Auto-generated field.
-        ''' To modify move field declaration from designer file to code-behind file.
-        ''' </remarks>
-        Protected SqlDataSource1 As Global.System.Web.UI.WebControls.SqlDataSource
+        '''<summary>
+        '''SqlDataSource1 control.
+        '''</summary>
+        '''<remarks>
+        '''Auto-generated field.
+        '''To modify move field declaration from designer file to code-behind file.
+        '''</remarks>
+        Protected WithEvents SqlDataSource1 As Global.System.Web.UI.WebControls.SqlDataSource
     End Class
 End Namespace

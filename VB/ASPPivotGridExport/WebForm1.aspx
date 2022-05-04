@@ -1,11 +1,11 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="true" CodeBehind="WebForm1.aspx.vb" 
     Inherits="ASPPivotGridExport.WebForm1" %>
 
-<%@ Register Assembly="DevExpress.Web.ASPxPivotGrid.v15.1, Version=15.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+<%@ Register Assembly="DevExpress.Web.ASPxPivotGrid.v22.1, Version=22.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
     Namespace="DevExpress.Web.ASPxPivotGrid" TagPrefix="dx" %>
 
 <%@ Register 
-    assembly="DevExpress.Web.v15.1, Version=15.1.15.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" 
+    assembly="DevExpress.Web.v22.1, Version=22.1.1.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" 
     namespace="DevExpress.Data.Linq" tagprefix="dx" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
@@ -25,27 +25,45 @@
                 onclick="WysiwygExportButton_Click" ToolTip="Export using the WYSIWYG type." /> 
         </div>
         <dx:ASPxPivotGrid ID="ASPxPivotGrid1" runat="server" ClientIDMode="AutoID" 
-            DataSourceID="SqlDataSource1">
+            DataSourceID="SqlDataSource1" OptionsData-DataProcessingEngine="Optimized" IsMaterialDesign="False">
             <Fields>
-                <dx:PivotGridField ID="fieldCountry" Area="ColumnArea" AreaIndex="0" 
-                    FieldName="Country">
+                <dx:PivotGridField ID="fieldCountry1" Area="ColumnArea" AreaIndex="0" Name="fieldCountry1">
+                    <DataBindingSerializable>
+                        <dx:DataSourceColumnBinding ColumnName="Country" />
+                    </DataBindingSerializable>
                 </dx:PivotGridField>
-                <dx:PivotGridField ID="fieldCategoryName" Area="RowArea" AreaIndex="0" 
-                    Caption="Category" FieldName="CategoryName">
+                <dx:PivotGridField ID="fieldCategoryName1" Area="RowArea" AreaIndex="0" 
+                    Caption="Category" Name="fieldCategoryName1">
+                    <DataBindingSerializable>
+                        <dx:DataSourceColumnBinding ColumnName="CategoryName" />
+                    </DataBindingSerializable>
                 </dx:PivotGridField>
-                <dx:PivotGridField ID="fieldProductName" Area="RowArea" AreaIndex="1" 
-                    Caption="Product" FieldName="ProductName">
+                <dx:PivotGridField ID="fieldProductName1" Area="RowArea" AreaIndex="1" 
+                    Caption="Product" Name="fieldProductName1">
+                    <DataBindingSerializable>
+                        <dx:DataSourceColumnBinding ColumnName="ProductName" />
+                    </DataBindingSerializable>
                 </dx:PivotGridField>
-                <dx:PivotGridField ID="fieldExtendedPrice" Area="DataArea" AreaIndex="0" 
-                    Caption="Extended Price" FieldName="Extended_Price">
+                <dx:PivotGridField ID="fieldExtendedPrice1" Area="DataArea" AreaIndex="0" 
+                    Caption="Extended Price" Name="fieldExtendedPrice1">
+                    <DataBindingSerializable>
+                        <dx:DataSourceColumnBinding ColumnName="Extended_Price" />
+                    </DataBindingSerializable>
                 </dx:PivotGridField>
-                <dx:PivotGridField ID="fieldSalesPerson" Area="ColumnArea" AreaIndex="1" 
-                    Caption="Sales Person" FieldName="Sales_Person">
+                <dx:PivotGridField ID="fieldSalesPerson1" Area="ColumnArea" AreaIndex="1" 
+                    Caption="Sales Person" Name="fieldSalesPerson1">
+                    <DataBindingSerializable>
+                        <dx:DataSourceColumnBinding ColumnName="Sales_Person" />
+                    </DataBindingSerializable>
                 </dx:PivotGridField>
-                <dx:PivotGridField ID="fieldQuantity" Area="DataArea" AreaIndex="1" 
-                    FieldName="Quantity">
+                <dx:PivotGridField ID="fieldQuantity1" Area="DataArea" AreaIndex="1" Name="fieldQuantity1">
+                    <DataBindingSerializable>
+                        <dx:DataSourceColumnBinding ColumnName="Quantity" />
+                    </DataBindingSerializable>
                 </dx:PivotGridField>
             </Fields>
+
+<OptionsData DataProcessingEngine="Optimized"></OptionsData>
         </dx:ASPxPivotGrid>
             <dx:ASPxPivotGridExporter ID="ASPxPivotGridExporter1" runat="server">
             </dx:ASPxPivotGridExporter>
