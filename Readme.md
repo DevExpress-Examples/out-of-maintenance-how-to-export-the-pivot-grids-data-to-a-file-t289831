@@ -9,7 +9,7 @@ This example shows how to export the Pivot Grid's data in the Data-Aware or WYSI
 
 - Click the **Export to XLSX** button to export data in Data-Aware mode. In the exported XLSX file, fixed row headers are disabled and the sheet name is set to "Pivot Grid Export".
 
-- Click the **Export to PDF** button to export data in the WYSIWYG type.
+- Click the **Export to PDF** button to export data in WYSIWYG mode.
 
 
 ## Files to Look At
