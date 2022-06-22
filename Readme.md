@@ -5,7 +5,7 @@
 # Pivot Grid for Web Forms - How to Export the Pivot Grid's Data to a File
 
 
-This example shows how to export the Pivot Grid's data in the Data-Aware or WYSIWYG [types](https://docs.devexpress.com/AspNet/114650/components/pivot-grid/export/export?p=netframework#export-types) and configure the export options. 
+This example shows how to export the Pivot Grid's data for the Data-Aware and WYSIWYG [types](https://docs.devexpress.com/AspNet/114650/components/pivot-grid/export/export?p=netframework#export-types), and configure the export options.
 
 - Click the **Export to XLSX** button to export data in Data-Aware mode. In the exported XLSX file, fixed row headers are disabled and the sheet name is set to "Pivot Grid Export".
 
@@ -23,6 +23,6 @@ This example shows how to export the Pivot Grid's data in the Data-Aware or WYSI
 
 ## More Examples
 
-- [Pivot Grid for Web Forms - How to Add Custom Header to an Exported PDF document](https://github.com/DevExpress-Examples/export-aspxpivotgrid-with-additional-text-captions-in-header-or-footer-e1188)
+- [Pivot Grid for Web Forms - How to Add a Custom Header to an Exported PDF document](https://github.com/DevExpress-Examples/export-aspxpivotgrid-with-additional-text-captions-in-header-or-footer-e1188)
 
 
